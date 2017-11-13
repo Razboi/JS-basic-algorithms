@@ -11,4 +11,4 @@ function FirstFactorial( num ) {
   return num;
 }
 
-console.log( FirstFactorial( 8 ) );
+console.log( FirstFactorial( 4 ) );
