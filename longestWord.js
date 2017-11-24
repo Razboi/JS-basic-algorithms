@@ -8,6 +8,8 @@ from the string with that length. Ignore punctuation and assume sen will not be 
 function LongestWord( sen ) {
   var words = sen.split(" ");
   var lengthCounter = 0;
+	/* if the length of the word > lengthCounter set the length as lengthCounter
+	and the word as finalWord. This will allow us to find the longest word */
   for ( var i = 0; i < words.length; i++ ) {
     if ( words[ i ].length > lengthCounter ) {
       lengthCounter = words[ i ].length;
